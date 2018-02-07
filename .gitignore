@@ -1,2 +1,4 @@
 .idea
 node_modules
+metabase-mysql/data/*
+!metabase-mysql/data/.gitkeep
