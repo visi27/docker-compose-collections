@@ -21,6 +21,7 @@ services:
     ports:
       - 8083:3000
     environment:
+      JAVA_OPTS: "-Xmx512m -Xss512k "
       MB_DB_FILE: /metabase-data/metabase.db
     volumes:
       - ./data/metabase:/metabase-data
